@@ -16,8 +16,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onclick(View view){
         switch (view.getId()){
-            case R.id.duhua:
+            case R.id.duhua://动画
                 startActivity(new Intent(MainActivity.this,DhuaActivity.class));
+                break;
+            case R.id.jishi:
+                //倒计时自定义控件
+                startActivity(new Intent(MainActivity.this,DJiShiActivity.class));
+
+
                 break;
         }
     }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DhuaActivity"></activity>
+        <activity android:name=".DhuaActivity" />
+        <activity android:name=".DJiShiActivity"></activity>
     </application>
 
 </manifest>
